@@ -6,7 +6,7 @@ const logger = require('morgan')
 const sassMiddleware = require('node-sass-middleware')
 
 const indexRouter = require('./routes/index')
-// const usersRouter = require('./routes/users')
+gconst usersRouter = require('./routes/users')
 
 const app = express()
 
